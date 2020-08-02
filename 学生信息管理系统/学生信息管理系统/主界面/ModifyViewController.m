@@ -116,7 +116,7 @@
 
         }];
 */
-        //错误里说警告里显示只能加一个，这个后面问学姐
+
        // UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:nil];
                   // [alertController addAction:sureAction];
                    //[alertController addAction:cancel];

@@ -10,7 +10,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-//这一段暂时不知道有什么用
 
 @class RegisterViewController;
 @protocol RegisterViewControllerDelegate<NSObject>

@@ -90,12 +90,6 @@
 
 - (void)modify{
     int i;
-    /*
-    UIAlertController *alertUC = [UIAlertController alertControllerWithTitle:nil message:@"您已成功完成修改" preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *action = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:nil];
-    [alertUC addAction:action];
-    [self presentViewController:alertUC animated:NO completion:nil];
-    */
     for(i = 0; i < _nameArr.count; i++){
         if([_nameArr[i] isEqualToString:_str]){
             [_nameArr replaceObjectAtIndex:i withObject:_nameTextField.text];
